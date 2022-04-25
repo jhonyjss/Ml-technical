@@ -1,4 +1,3 @@
-
 # Project Title
 
 A brief description of what this project does and who it's for
@@ -8,10 +7,10 @@ A brief description of what this project does and who it's for
 - Node > 12
 - Docker + Docker Compose ( p/ api )
 - Npm > 6
+
 # Technical Challange Mercado Livre
 
 Este projeto consiste em aplicação fullstack, desenvolvido utilizando tecnologias como NODE JS para backend e VUE JS para front END.
-
 
 ## Features
 
@@ -23,14 +22,11 @@ Este projeto consiste em aplicação fullstack, desenvolvido utilizando tecnolog
 - Dockerized
 - Vite Introduced ( superfast building )
 
-
-
 ## Tech Stack
 
 **Client:** Vue, Vite, TailwindCSS, Axios
 
 **Server:** Node, Express, NestJS Framework
-
 
 ## Variavel de ambiente
 
@@ -38,15 +34,10 @@ Para rodar este projeto no BACKEND, voce precisava renomear o arquivo .env.examp
 
 `NJS_ML_API=https://api.mercadolibre.com`
 
-
-
-
 ## Documentação - API SWAGGER
 
 Para ter acesso a documentação dos endpoints desenvolvidos você deve acessar o seguinte link
 [http://localhost:3000/api](http://localhost:3000/api)
-
-
 
 ## Executando localmente a API
 
@@ -67,7 +58,6 @@ Executar sem docker compose
 ```bash
   npm run start:dev
 ```
-
 
 ## Executando localmente o FRONT END
 
@@ -89,9 +79,6 @@ Executar o compilamento em prod
   npm run build && npm run start
 ```
 
-
-
-
 ## Executando localmente a API
 
 Navegue ate o diretorio
@@ -112,7 +99,6 @@ Executar sem docker compose
   npm run start:dev
 ```
 
-
 ## Executando localmente o FRONT END
 
 Navegue ate o diretorio
@@ -132,5 +118,3 @@ Executar o compilamento em prod
 ```bash
   npm run build &&npm run start
 ```
-
-
